@@ -31,9 +31,6 @@
     "projen": "^0.84.4",
     "standard-version": "^9"
   },
-  "dependencies": {
-    "express": "^4.19.2"
-  },
   "main": "lib/index.js",
   "license": "Apache-2.0",
   "publishConfig": {
