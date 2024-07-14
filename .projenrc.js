@@ -6,7 +6,7 @@ const project = new javascript.NodeProject({
   authorName: author,
   defaultReleaseBranch: 'main',
   name: 'kl-function-nodejs',
-  deps: [],
+  deps: ['nats'],
   description: 'KubeLambda JavaScript function',
   prettier: true,
   prettierOptions: {

@@ -1,0 +1,15 @@
+**/.git
+**/.gitignore
+**/.vscode
+**/coverage
+**/.env
+**/.github
+**/.mise.toml
+**/.gitattributes
+*Dockerfile*
+README.md
+*docker-compose*
+requirements-dev.txt
+**/env
+node_modules
+

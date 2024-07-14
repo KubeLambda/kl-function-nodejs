@@ -207,13 +207,13 @@
       },
       "steps": [
         {
-          "exec": "npx npm-check-updates@16 --upgrade --target=minor --peer --dep=dev,peer,prod,optional --filter=jest,prettier,projen"
+          "exec": "npx npm-check-updates@16 --upgrade --target=minor --peer --dep=dev,peer,prod,optional --filter=jest,prettier,projen,nats"
         },
         {
           "exec": "yarn install --check-files"
         },
         {
-          "exec": "yarn upgrade constructs jest jest-junit prettier projen standard-version"
+          "exec": "yarn upgrade constructs jest jest-junit prettier projen standard-version nats"
         },
         {
           "exec": "npx projen"
